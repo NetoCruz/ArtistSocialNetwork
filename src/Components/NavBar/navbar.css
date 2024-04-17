@@ -1,0 +1,14 @@
+.navbar{
+    display: flex;
+    background-color: aqua;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar h1{
+    margin: 0;
+}
+.links{
+    display: flex;
+    gap: 20px;
+    padding-right: 20px;
+}

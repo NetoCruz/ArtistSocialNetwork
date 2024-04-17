@@ -1,0 +1,54 @@
+
+.card{
+
+    
+    background-color: rgb(59, 59, 59);
+    padding: 10px;
+    border-radius: 10px;
+    width: fit-content;
+   
+}
+.image{
+     width: 280px;
+     height: 400px;
+}
+.image img{
+    
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      
+}
+.badges{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: -397px;
+    right: 8px;
+}
+.bk{
+    background-color: rgb(39, 39, 39,0.7);
+    border-radius: 5px;
+    padding: 3px;
+}
+.bottonbadge{
+    position: relative;
+    bottom: 80px;
+    left: 216px;
+    display: inline;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+}
+.info h4{
+    margin: 0;
+}
+.skill{
+    display: flex;
+    gap: 14px;
+}
+.skill p{
+    margin: 0;
+}
