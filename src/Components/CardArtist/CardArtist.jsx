@@ -1,10 +1,15 @@
 import React from "react";
 import './cardartist.css'
+import { Link } from "react-router-dom";
+
 
 function CardArtist({data}) {
+   
  return(
-    data.map((item)=>(
- <div className="card" key={item.id}>
+    data
+    .map((item)=>(
+       <Link to={`/profile/${item.id}`} className="card">
+    <div  key={item.id}>
         <div className="image">
             <img src={item.img}alt="" />
             <div className="badges">
@@ -34,6 +39,7 @@ function CardArtist({data}) {
             </div>
         </div>
     </div>
+    </Link> 
  )
 
     ))

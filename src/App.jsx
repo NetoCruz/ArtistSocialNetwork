@@ -1,15 +1,22 @@
 
 import './App.css'
-import Navbar from './Components/NavBar/Navbar'
 import MainPage from './Pages/Mainpage/MainPage'
+import Profile from './Pages/Profile/Profile'
+import { Routes, Route } from "react-router-dom"
+import Data  from "../../data";
 
 function App() {
 
 
   return (
     <>
-      <Navbar/>
-      <MainPage/>
+    <Routes>
+    <Route path="/" element={ <MainPage/> } />
+    <Route path="/profile/:id" element={ <Profile data={Data}/>} />
+    </Routes>
+    
+      
+     
 
     </>
   )

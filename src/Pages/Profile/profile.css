@@ -1,0 +1,36 @@
+.mainprofile{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+#photos{
+    line-height: 0;
+    column-count:         2;
+  column-gap:           5px; 
+  padding: 10px;
+}
+#photos img {
+    /* Just in case there are inline attributes */
+    width: 100% !important;
+    height: auto !important;
+  }
+.about{
+    display: flex;
+    flex-direction: column;
+}
+.badge{
+    display: flex;
+    gap: 10px;
+}
+.adress{
+    display: flex;
+    gap: 10px;
+}
+.buttons{
+    margin-bottom: 10px;
+}
+
+.separator{
+    height: 1px;
+    width: 100%;
+    background-color: black;
+}
