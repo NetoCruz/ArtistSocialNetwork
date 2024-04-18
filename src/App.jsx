@@ -3,7 +3,7 @@ import './App.css'
 import MainPage from './Pages/Mainpage/MainPage'
 import Profile from './Pages/Profile/Profile'
 import { Routes, Route } from "react-router-dom"
-import Data  from "../../data";
+import Data  from "../data";
 
 function App() {
 

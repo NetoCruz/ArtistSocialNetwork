@@ -1,7 +1,7 @@
 import React from "react";
 import CardArtist from "../../Components/CardArtist/CardArtist";
 import './mainpage.css';
-import Data  from "../../../../data";
+import Data  from "../../../data";
 
 
 function MainPage(){
