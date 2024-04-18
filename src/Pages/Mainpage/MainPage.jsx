@@ -3,6 +3,7 @@ import CardArtist from "../../Components/CardArtist/CardArtist";
 import './mainpage.css';
 import Data  from "../../../../data";
 
+
 function MainPage(){
     return(
         <>
