@@ -14,6 +14,8 @@ function Profile({data}){
             <img src="cat2.jpg" alt="" />
             <img src="cat3.jpg" alt="" />
             <img src="cat4.jpg" alt="" />
+            <img src="cat3.jpg" alt="" />
+            <img src="cat4.jpg" alt="" />
             <img src="phto01.jpg" alt="" />
         </div>
         <div className="about">
