@@ -1,6 +1,8 @@
 import React from "react";
 import "./profile.css"
 import { useParams } from "react-router-dom";
+import Tw from '../../assets/twitter.svg'
+import Ist from '../../assets/instagram.svg'
 
 function Profile({data}){
     const {id} = useParams()
@@ -56,6 +58,10 @@ function Profile({data}){
 
             </div>
             <div className="separator"></div>
+            <div className="sociallinks">
+                <img src={Tw} alt="" />
+                <img src={Ist} alt="" />
+            </div>
             
         </div>
         </div>
